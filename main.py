@@ -5,7 +5,7 @@ from telethon.sessions import StringSession
 
 # قرار دادن مستقیم اطلاعات سالم برای دور زدن کش سرور رندر
 api_id = 25942287
-api_hash = "90bd2c9fc548b905451a27c821d5db7"
+api_hash = "90bd2c9fc548b90fc831a27c821d5db7"
 session_string = "1BJWap1sBu0tBGz4fGeK9vCQeOqLlWhL9OVU2wLPojnQcc4iu9U0wHYH4oL4W1JN1FnCy7oXpA6h325PYj_aX12ACjDbPHpXMA9lui8pL83-OntiZLnerUMOQt3F9CZecTozhvyG_A9owHxA5tnqtXAgjp5m4bPtwdTwGJ_PSaaZujRuwGPfgxPRE7UT25M_ldYPSADjzluBw9AxXWf4yGsHsyGCvYKWbNgdhp-EV7pIX-el6oESKaBFBCobGAvEzqpMhx7BOeDoOHs0RurZEH3kgur4kREFTca5IXcLZc_fqxL--P8__bqxo8llNL3ma6lFPUa9D5im2JECe8BgdPuuyzFmBdsE="
 
 client = TelegramClient(StringSession(session_string), api_id, api_hash)
